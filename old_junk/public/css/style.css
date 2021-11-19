@@ -1,0 +1,102 @@
+/* файл стилей CSS документа */
+
+*, h1, h2, h3, h4, h5, h6, p {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+hr {
+    height: 1px;
+    box-sizing: border-box;
+    border-width: 1px;
+    border-radius: 50px;
+    border-color: black;
+    background-color: black;
+    width: auto;
+}
+
+body {
+    background-color: rgb(207, 207, 207);
+}
+
+.box {
+    text-align: center;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50xp;
+    padding: 30px;
+    background-color: white;
+}
+
+input, select, .box {
+    font-size: 25px;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.selector, .inputNumber {
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    width: 350px;
+    border-radius: 20px;
+    height: 100%;
+    padding: 10px;
+    border-width: 3px;
+}
+
+.dateUpdateText {
+    margin-top: 10px;
+}
+
+.name {
+    border-width: 0;
+    background-color: transparent;
+    height: 1px;
+    margin-bottom: 10px;
+}
+
+.button {
+    background-color: white;
+    height: 100%;
+    width: 200px;
+    border-radius: 20px;
+    border-width: 3px;
+    border-color: black;
+    background-color: white;
+    color: black;
+}
+
+.convertButton {
+    margin-bottom: 20px;
+}
+
+.selector:focus, .inputNumber:focus {
+    outline: none;
+    border-color: green;
+}
+
+.button:hover {
+    background-color: rgb(203, 255, 203);
+    border-color: rgb(203, 255, 203);
+}
+
+.redButton:hover {
+    background-color: rgb(255, 198, 198);
+    border-color:rgb(255, 198, 198);
+}
+
+.selector, .inputNumber, .button {
+    outline: none;
+    border-style: solid;
+    box-sizing: content-box;
+}
